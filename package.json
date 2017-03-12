@@ -1,0 +1,17 @@
+{
+  "name": "camila",
+  "version": "1.0.0",
+  "description": "Teste Simplifica",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "cabukater"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "camila",
+  "authors": [
+    "camila assis <cabukater@gmail.com>"
+  ],
+  "description": "Teste para Simplificaa",
+  "main": "index",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ui-bootstrap": "^2.5.0",
+    "angular": "^1.6.3"
+  }
+}
