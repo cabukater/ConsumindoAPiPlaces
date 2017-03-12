@@ -38,7 +38,7 @@ function initMap() {
   // Restrict the search to the default country, and to place type "cities".
   autocomplete = new google.maps.places.Autocomplete(
       /** @type {!HTMLInputElement} */ (
-          document.getElementById('autocomplete2'), document.getElementById('autocomplete')), {
+        document.getElementById('autocomplete')), {
         types: ['geocode', 'establishment'],
         componentRestrictions: countryRestrict
 
@@ -215,12 +215,12 @@ function buildIWContent(place) {
     document.getElementById('iw-website-row').style.display = 'none';
   }
 }
-function showBest() {
-      if (place.rating ==  5 ) {
-        document.getElementByClassName('information').style.display = 'none'; 
+function checkTemplate(){
+    $('#results').each(function(index){
+          if ('#results'.length == 0) {
+            console.log('oi')
+  // do stuff
+}
 
-      } else {
-         document.getElementByClassName('information').style.display = 'none'; 
-      }
-
- }     
+    });
+}
